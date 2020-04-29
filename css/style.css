@@ -1,0 +1,217 @@
+body {
+    background-color: #222035;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.mainContainer {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin: 0 -640px;
+}
+
+.messageContainer0 {
+    position: absolute;
+    top: 216px;
+    left: 400px;
+    margin: 0;
+    height: 40%;
+    width: 40%;
+    background-color: #78857C;
+    border-radius: 25px;
+    padding: 25px;
+    font: 50px Arial;
+    text-align: center;
+}
+
+.messageContainer0 p {
+    margin-top: 10px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 1350px) {
+    .mainContainer {
+        top: 0;
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    .mainContainer {
+        transform: scale(0.9);
+        top: -32px;
+    }
+}
+
+@media only screen and (max-width: 1160px) {
+    .mainContainer {
+        transform: scale(0.8);
+        top: -64px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .mainContainer {
+        transform: scale(0.7);
+        top: -96px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .mainContainer {
+        transform: scale(0.6);
+        top: -128px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .mainContainer {
+        transform: scale(0.5);
+        top: -160px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .mainContainer {
+        transform: scale(0.4);
+        top: -192px;
+    }
+}
+
+@media only screen and (max-width: 524px) {
+    .mainContainer {
+        transform: scale(0.35);
+        top: -208px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .mainContainer {
+        transform: scale(0.3);
+        top: -224px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .mainContainer {
+        transform: scale(0.25);
+        top: -240px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .mainContainer {
+        transform: scale(0.2);
+        top: -256px;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    .mainContainer {
+        transform: scale(0.15);
+        top: -272px;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .mainContainer {
+        transform: scale(0.1);
+        top: -288px;
+    }
+}
+
+@media only screen and (max-width: 140px) {
+    .mainContainer {
+        transform: scale(0.05);
+        top: -304px;
+    }
+}
+
+@media only screen and (max-height: 720px) and (orientation: landscape) {
+    .mainContainer {
+        transform: scale(0.9);
+        top: 0;
+        margin-top: -5%;
+    }
+}
+
+@media only screen and (max-height: 650px) and (orientation: landscape) {
+    .mainContainer {
+        transform: scale(0.8);
+        margin-top: -10%;
+    }
+}
+
+@media only screen and (max-height: 580px) and (orientation: landscape) {
+    .mainContainer {
+        transform: scale(0.7);
+        margin-top: -15%;
+    }
+}
+
+@media only screen and (max-height: 510px) and (orientation: landscape) {
+    .mainContainer {
+        transform: scale(0.6);
+        margin-top: -20%;
+    }
+}
+
+@media only screen and (max-height: 435px) and (orientation: landscape) {
+    .mainContainer {
+        transform: scale(0.5);
+        margin-top: -25%;
+    }
+}
+
+@media only screen and (max-height: 360px) and (orientation: landscape) {
+    .mainContainer {
+        transform: scale(0.4);
+        margin-top: -30%;
+    }
+}
+
+@media only screen and (max-height: 290px) and (orientation: landscape) {
+    .mainContainer {
+        transform: scale(0.35);
+        margin-top: -32.5%;
+    }
+}
+
+@media only screen and (max-height: 254px) and (orientation: landscape) {
+    .mainContainer {
+        transform: scale(0.3);
+        margin-top: -35%;
+    }
+}
+
+@media only screen and (max-height: 218px) and (orientation: landscape) {
+    .mainContainer {
+        transform: scale(0.25);
+        margin-top: -37.5%;
+    }
+}
+
+@media only screen and (max-height: 181px) and (orientation: landscape) {
+    .mainContainer {
+        transform: scale(0.2);
+        margin-top: -40%;
+    }
+}
+
+@media only screen and (max-height: 145px) and (orientation: landscape) {
+    .mainContainer {
+        transform: scale(0.15);
+        margin-top: -42.5%;
+    }
+}
+
+@media only screen and (max-height: 110px) and (orientation: landscape) {
+    .mainContainer {
+        transform: scale(0.1);
+        margin-top: -45%;
+    }
+}

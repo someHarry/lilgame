@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9ddcae76-e94c-40e3-bd45-c7fef8e6a2bc" name="LilGame test (darkhost)" url="http://5.45.69.150">
+        <fileTransfer host="5.45.69.150" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="681b8c42-45f5-466a-b4f2-d67182b413a6" name="LilGame (darkhost)" url="http://5.45.69.150">
+        <fileTransfer host="5.45.69.150" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
